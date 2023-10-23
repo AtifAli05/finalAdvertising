@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "advertising_business_app",
-    "slug": "advertising_business_app",
+    "slug": "adverstisementapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.advertise.business"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +27,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8539984b-165b-4acd-97f4-fc5b01e0e64f"
+      }
+    },
+    "owner": "atifali_goraya"
   }
 }
